@@ -13,3 +13,7 @@ def assign_rooms(speakers)
   end
   speakers_and_rooms
 end
+
+def printer
+  batch_badge_creator(names).each { |name| puts name }
+end
