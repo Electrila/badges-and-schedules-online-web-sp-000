@@ -7,5 +7,6 @@ def batch_badge_creator(names)
 end
 
 def assign_rooms(names)
-  rooms = [*1..7]
+  room_assignments = [*1..7]
+  names.each_with_index { |name, index| 
 end
