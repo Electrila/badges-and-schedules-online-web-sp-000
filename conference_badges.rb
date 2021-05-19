@@ -8,5 +8,6 @@ end
 
 def assign_rooms(speakers)
   speakers_and_rooms = []
-  speakers.each_with_index { |name, index| speakers_and_rooms << 
+  speakers.each_with_index do |name, index|
+    speakers_and_rooms << 
 end
